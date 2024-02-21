@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: rgb(189, 109, 5);
+}
+
+.micro-5-regular {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    
+  }
+  nav{
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    font-family: "Micro 5", sans-serif;
+    color: red;
+    padding: 20px 20px;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: line-through;
+  }
+  
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#HTML{
+    background-color: #283618;
+
+}
+
+
+#CSS{
+    background-color: #344e41;
+
+}
+#JS{
+    background-color: #778da9;
+}
+#GAME-DEV{
+    background-color: #ff006e;
+
+}
+
+#VR{
+background-color: #0d1b2a;
+}
+
+section > h1 {
+    font-family: "Micro 5", sans-serif;
+    font-size: 2.8rem;
+    color: magenta; 
+}
+
+#icone {
+    border: 1px solid black;
+    padding: 20px;
+    position:fixed;
+    border-radius: 15px;
+    bottom: 20px;
+    right: 20px;
+    
+    
+}
